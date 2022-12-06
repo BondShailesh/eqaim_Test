@@ -1,0 +1,71 @@
+.blogBody {
+    display: block;
+    width: 80%;
+    min-height: 400px;
+    margin: auto;
+    font-size: 24px;
+}
+
+/* Blog section*/
+.title {
+    width: 40%;
+    font-size: 28px;
+    height: 30px;
+    margin: 20px;
+}
+
+.publishBtn {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.blogSection {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.linkpara:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.blog {
+    box-shadow: 3px 3px 3px 3px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.linkpara {
+    text-decoration: none;
+    color: black;
+}
+
+.blogDescrip {
+    height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px;
+}
+
+.blogHead {
+    font-size: 29px;
+}
+
+.uniqueBlog {
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.uniqueBlogDes {
+    font-size: 23px;
+    color: gray;
+    margin-top: 10px;
+}
