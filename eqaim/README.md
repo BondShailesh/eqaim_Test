@@ -14,3 +14,9 @@ there are two section 5 component in blog folder
 
 *axios is used to get and post the data
 *react-router-dom user for routing
+
+## backend
+-express, mongoDb(local), mongoose is use to make this app
+//local mongoDb have to start to see the data or save the data
+//locally it is running on 8080port
+//deployed on render

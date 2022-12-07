@@ -10,7 +10,7 @@ function Blogs() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get("http://localhost:8080/blogs")
+    axios.get("https://eqaim-test1.onrender.com/blogs")
       .then((r) => {
         console.log(r.data);
         let data = r.data.reverse()

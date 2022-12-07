@@ -13,19 +13,18 @@ function WriteBlog() {
             [name]: value
         })
     }
-    
+
     const handlePublish = () => {
-        axios.post('http://localhost:8080/blogs',{...blog})
-        .then((r)=>{
-            console.log(r.data);
-            alert("Blog Published");
-            navigate("/")        
-        })
-        .catch((e)=>{
-            console.log(e);
-        })
+        axios.post('https://eqaim-test1.onrender.com/blogs', { ...blog })
+            .then((r) => {
+                alert("Blog Published");
+                navigate("/")
+            })
+            .catch((e) => {
+                console.log(e);
+            })
     }
-    
+
     return (
         <div className={styles.write}>
             <input

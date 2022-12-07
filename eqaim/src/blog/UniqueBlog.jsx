@@ -9,7 +9,7 @@ function UniqueBlog() {
     const [blog, setBlog] = useState("")
     const { id } = useParams()
     useEffect(() => {
-        axios.get(`http://localhost:8080/blogs/${id}`)
+        axios.get(`https://eqaim-test1.onrender.com/blogs/${id}`)
             .then((r) => {
                 setBlog(r.data[0])
             })
